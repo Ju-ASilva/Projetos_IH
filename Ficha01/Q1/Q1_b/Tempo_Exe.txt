@@ -12,4 +12,15 @@ será de: 24/100 = 0.24s
 O nosso programa possui, no seu pior caso(quando o programa entra de fato
 no if), 12 instruções a serem realizadas.
 
-No processador Cycle-Acurate, com uma frequência de 100Hz, nosso tempo 0.45s
+No processador Cycle-Acurate, considerando o número de ciclos necessáiros
+para cada operação de operação de load, comprações e etc. podemos chegar 
+na conclusão que levaria em torno de 34 ciclos para a comclusão do 
+programa, com uma frequência de 100Hz, realizando uma operação similir a 
+da letra anterior, nosso tempo seria de 0.34s
+
+Quando falamos da CPI, precisamos realizar uma operação de divisão, novamente
+quando olhamos o nosso pior caso(Quando todas as condições são estabelecidas)
+Oberservamos que CPI:
+                        Nclock/Ninstructions
+                        34/12 ~= 2.83
+                        
