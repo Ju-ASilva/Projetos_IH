@@ -1,0 +1,17 @@
+Questão 1 - Letra b
+----------------------------------------------------------------------
+1 - b - i 
+O nosso programa possui, no seu pior caso(quando o programa entra de fato
+no if), 12 instruções a serem realizadas.
+
+Como no processador Dual-Cycle cada uma delas necessita de 2 pulsos para 
+cada instrução temos 24 pulsos. Com uma frequência de 100Hz, nosso tempo
+será de: 24/100 = 0.24s
+-----------------------------------------------------------------------
+1 - b - ii
+O nosso programa possui, no seu pior caso(quando o programa entra de fato
+no if), 12 instruções a serem realizadas.
+
+Como no processador Dual-Cycle cada uma delas necessita de 2 pulsos para 
+cada instrução temos 24 pulsos. Com uma frequência de 100Hz, nosso tempo
+será de: 24/100 = 0.24s
