@@ -4,7 +4,7 @@ Questão 1 - Letra b
 O nosso programa possui, no seu pior caso(quando o programa entra de fato
 no if), 12 instruções a serem realizadas.
 
-Como no processador Dual-Cycle cada uma delas necessita de 2 pulsos para 
+Como no processador Dual-Cycle cada instrução necessita de 2 pulsos para 
 cada instrução temos 24 pulsos. Com uma frequência de 100Hz, nosso tempo
 será de: 24/100 = 0.24s
 -----------------------------------------------------------------------
@@ -12,6 +12,4 @@ será de: 24/100 = 0.24s
 O nosso programa possui, no seu pior caso(quando o programa entra de fato
 no if), 12 instruções a serem realizadas.
 
-Como no processador Dual-Cycle cada uma delas necessita de 2 pulsos para 
-cada instrução temos 24 pulsos. Com uma frequência de 100Hz, nosso tempo
-será de: 24/100 = 0.24s
+No processador Cycle-Acurate, com uma frequência de 100Hz, nosso tempo 0.45s
