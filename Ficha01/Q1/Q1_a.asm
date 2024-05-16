@@ -21,7 +21,7 @@ halt
 
 #Caso ele não entre no if, o X não é incrementado e o programa termina
 end:
-	nop
+	halt
 
 
 #Dando valores ás variáveis
