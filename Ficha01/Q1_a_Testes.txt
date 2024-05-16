@@ -1,0 +1,43 @@
+Teste que entram no IF e incrementam o x
+    Teste 1:
+        a: .word 6
+        b: .word 6
+        c: .word 21
+    Teste 2:
+        a: .word 7
+        b: .word 65
+        c: .word 130
+    Teste 3:
+        a: .word 10
+        b: .word 0
+        c: .word 100
+    Teste 4:
+        a: .word 20
+        b: .word 20
+        c: .word 20
+    Teste 5:
+        a: .word 40
+        b: .word 50
+        c: .word 60
+
+Teste que não entram no IF e portanto, não incrementam o x
+    Teste 1:
+        a: .word 1
+        b: .word 66
+        c: .word 1
+    Teste 2:
+        a: .word 2
+        b: .word 67
+        c: .word 2
+    Teste 3:
+        a: .word 3
+        b: .word 68
+        c: .word 3
+    Teste 4:
+        a: .word 4
+        b: .word 69
+        c: .word 4
+    Teste 5:
+        a: .word 0
+        b: .word 70
+        c: .word 0
